@@ -26,10 +26,10 @@ To apply different values for the parameters above, you have to re-apply the con
 ## Usage
 ```
 module "mysql" {
-  source = "git::https://github.com/felipefrizzo/terraform-aws-rds-mysql?ref=master"
+  source = "git::https://github.com/jagsrathinam/AWS-Terraform/tree/master/terraform-aws-rds-mysql"
 
-  product_domain = "frizzo"
-  service_name   = "rds-master-frizzo"
+  product_domain = "jrath"
+  service_name   = "rds-master-jrath"
   environment    = "production"
   description    = "Mysql server to store Github data"
 
